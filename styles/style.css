@@ -232,11 +232,12 @@ nav ul li a{
 
 #portfolios {
     padding: var(--sectionPadding);
-
 }
 
 .portfolio {
     border-radius: var(--itemBorderRadius);
+    overflow: hidden;
+    border: 1px solid var(--borderColor);
 }
 
 .portfolio-cover {
